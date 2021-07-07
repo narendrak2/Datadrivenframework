@@ -6,8 +6,8 @@
       <class name="testcases.Logintest">
         <methods>
           <include name="setup"/>
-          <include name="loginmanager"/>
           <include name="teardown"/>
+          <include name="transcation"/>
         </methods>
       </class> <!-- testcases.Logintest -->
     </classes>
