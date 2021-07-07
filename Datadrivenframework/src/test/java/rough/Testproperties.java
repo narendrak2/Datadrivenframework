@@ -13,9 +13,9 @@ public class Testproperties {
 		
 		Properties config=new Properties();
 		Properties OR=new Properties();
-		FileInputStream fi=new FileInputStream("/Users/narendra/eclipse-workspace/Datadrivenframework/src/test/resources/properties/config.properties");
+		FileInputStream fi=new FileInputStream("/Users/narendra/git/Datadrivenframework/Datadrivenframework/src/test/resources/properties/config.properties");
 		config.load(fi);
-		fi=new FileInputStream("/Users/narendra/eclipse-workspace/Datadrivenframework/src/test/resources/properties/Objectstorage.properties");
+		fi=new FileInputStream("/Users/narendra/git/Datadrivenframework/Datadrivenframework/src/test/resources/properties/Objectstorage.properties");
 		OR.load(fi);
 	}
 

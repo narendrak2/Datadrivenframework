@@ -1,33 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-07-05T08:15:03Z" name="Default suite" finished-at="2021-07-05T08:15:29Z" duration-ms="26849">
+  <suite started-at="2021-07-07T08:47:53Z" name="Default suite" finished-at="2021-07-07T08:48:24Z" duration-ms="30640">
     <groups>
     </groups>
-    <test started-at="2021-07-05T08:15:03Z" name="Default test" finished-at="2021-07-05T08:15:29Z" duration-ms="26849">
+    <test started-at="2021-07-07T08:47:53Z" name="Default test" finished-at="2021-07-07T08:48:24Z" duration-ms="30640">
       <class name="testcases.Logintest">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:03Z" name="setup" finished-at="2021-07-05T08:15:09Z" duration-ms="6308" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:47:53Z" name="setup" finished-at="2021-07-07T08:47:56Z" duration-ms="2334" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="loginmanager()[pri:1, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:09Z" name="loginmanager" finished-at="2021-07-05T08:15:13Z" duration-ms="4496" status="PASS">
+        <test-method signature="loginmanager()[pri:1, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:47:56Z" name="loginmanager" finished-at="2021-07-07T08:48:00Z" duration-ms="4384" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- loginmanager -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:13Z" name="teardown" finished-at="2021-07-05T08:15:14Z" duration-ms="193" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:00Z" name="teardown" finished-at="2021-07-07T08:48:00Z" duration-ms="77" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:14Z" name="setup" finished-at="2021-07-05T08:15:16Z" duration-ms="2257" status="PASS">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:00Z" name="setup" finished-at="2021-07-07T08:48:02Z" duration-ms="1824" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="deposit()[pri:2, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:16Z" name="deposit" finished-at="2021-07-05T08:15:29Z" duration-ms="13460" status="PASS">
+        <test-method signature="deposit()[pri:2, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:02Z" name="deposit" finished-at="2021-07-07T08:48:15Z" duration-ms="12625" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- deposit -->
-        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:29Z" name="teardown" finished-at="2021-07-05T08:15:29Z" duration-ms="85" status="PASS">
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:15Z" name="teardown" finished-at="2021-07-07T08:48:15Z" duration-ms="58" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:15Z" name="setup" finished-at="2021-07-07T08:48:16Z" duration-ms="1795" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="transcation()[pri:3, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:16Z" name="transcation" finished-at="2021-07-07T08:48:24Z" duration-ms="7367" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- transcation -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@43df23d3]" started-at="2021-07-07T08:48:24Z" name="teardown" finished-at="2021-07-07T08:48:24Z" duration-ms="135" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->

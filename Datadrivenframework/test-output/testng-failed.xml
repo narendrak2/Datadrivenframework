@@ -5,8 +5,8 @@
     <classes>
       <class name="testcases.Logintest">
         <methods>
-          <include name="deposit"/>
           <include name="setup"/>
+          <include name="loginmanager"/>
           <include name="teardown"/>
         </methods>
       </class> <!-- testcases.Logintest -->

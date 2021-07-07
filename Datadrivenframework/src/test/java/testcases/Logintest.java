@@ -15,14 +15,16 @@ import base.Testbase;
 	@Test(priority=1)
 	public void loginmanager() throws InterruptedException {
 		log.debug("On Login page");
-		findelemntAndClickXpath(OR.getProperty("customerloginbutton"));
-		Thread.sleep(3000);
+		clickelementandwait(OR.getProperty("customerloginbutton"));
+		
 		String str=findElementAndGetText(OR.getProperty("checkname"));
 		Assert.assertEquals(str, "Your Name :");
 	    log.debug("Login got success");
-	    dropdownclass(OR.getProperty("namedropdown"));
 	    
+	    dropdownclass(OR.getProperty("namedropdown"));
+	   
 	    findelemntAndClickXpath(OR.getProperty("Loginbutton"));
+	    Thread.sleep(2000);
 	    
 	    String str1=findElementAndGetText(OR.getProperty("logout"));
 	   
@@ -33,7 +35,6 @@ import base.Testbase;
 public void deposit() throws InterruptedException {
 	
 	loginmanager();
-	log.debug("Stating of next page deposit");
 	log.debug("Stating of next page deposit");
 	Thread.sleep(2000);
 	findelemntAndClickXpath(OR.getProperty("depositbtn"));
@@ -48,6 +49,21 @@ public void deposit() throws InterruptedException {
 	   
     Assert.assertEquals(str1, "Deposit Successful");
 	
+}
+
+@Test(priority=3)
+
+public void transcation() throws InterruptedException {
+	
+	
+	log.debug("On Login page for transaction");
+	loginmanager();
+	findelemntAndClickXpath(OR.getProperty("Transactionbtn"));
+	log.debug("After click transcation button and wait ");
+	Thread.sleep(3000);
+	String str1=findElementAndGetText(OR.getProperty("resetbtontranspage"));
+	   
+    Assert.assertEquals(str1, "Reset");
 }
 	
 }

@@ -47,9 +47,9 @@ public class Testbase {
 		
 		if(driver==null) {
 		
-		FileInputStream fis=new FileInputStream("/Users/narendra/eclipse-workspace/Datadrivenframework/src/test/resources/properties/config.properties");
+		FileInputStream fis=new FileInputStream("/Users/narendra/git/Datadrivenframework/Datadrivenframework/src/test/resources/properties/config.properties");
 		config.load(fis);
-		fis=new FileInputStream("/Users/narendra/eclipse-workspace/Datadrivenframework/src/test/resources/properties/Objectstorage.properties");
+		fis=new FileInputStream("/Users/narendra/git/Datadrivenframework/Datadrivenframework/src/test/resources/properties/Objectstorage.properties");
 		OR.load(fis);
 		
 		}
@@ -103,17 +103,10 @@ public void findelemntAndClick(String str) {
 	
 	public void dropdownclass(String str) {
 		
-		Select sc=new Select(driver.findElement(By.id(str)));
-		List<WebElement> ls=sc.getOptions();
-		for(int i=0;i<ls.size();i++) {
-	sc.selectByIndex(i);
-		}
-		//return str;s
-		
+		Select sc=new Select(driver.findElement(By.xpath(str)));
+		sc.selectByIndex(1);
+
 	}
-		//sc.selectByIndex(2);
-		//return str;	
-	//}
 	@AfterMethod
 	public void teardown() {
 		
