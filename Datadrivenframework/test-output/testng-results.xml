@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2021-07-05T08:15:03Z" name="Default suite" finished-at="2021-07-05T08:15:29Z" duration-ms="26849">
+    <groups>
+    </groups>
+    <test started-at="2021-07-05T08:15:03Z" name="Default test" finished-at="2021-07-05T08:15:29Z" duration-ms="26849">
+      <class name="testcases.Logintest">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:03Z" name="setup" finished-at="2021-07-05T08:15:09Z" duration-ms="6308" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="loginmanager()[pri:1, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:09Z" name="loginmanager" finished-at="2021-07-05T08:15:13Z" duration-ms="4496" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginmanager -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:13Z" name="teardown" finished-at="2021-07-05T08:15:14Z" duration-ms="193" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:14Z" name="setup" finished-at="2021-07-05T08:15:16Z" duration-ms="2257" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="deposit()[pri:2, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:16Z" name="deposit" finished-at="2021-07-05T08:15:29Z" duration-ms="13460" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- deposit -->
+        <test-method is-config="true" signature="teardown()[pri:0, instance:testcases.Logintest@359df09a]" started-at="2021-07-05T08:15:29Z" name="teardown" finished-at="2021-07-05T08:15:29Z" duration-ms="85" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- testcases.Logintest -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
