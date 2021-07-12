@@ -23,6 +23,8 @@ import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeMethod;
 import org.testng.annotations.BeforeSuite;
 
+import Utilities.Excelreader;
+
 public class Testbase {
 
 	/*
@@ -40,6 +42,7 @@ public class Testbase {
 	public static Properties OR=new Properties();
 	public static FileInputStream fis;
 	public static Logger log=Logger.getLogger("devpinoyLogger");
+	public static Excelreader excel=new Excelreader("/Users/narendra/git/Datadrivenframework/Datadrivenframework/src/test/resources/excel/Attendanceapril3232.xlsx");
 	//public static wait Webdriverwait;
 	
 	@BeforeMethod
@@ -105,6 +108,19 @@ public void findelemntAndClick(String str) {
 		
 		Select sc=new Select(driver.findElement(By.xpath(str)));
 		sc.selectByIndex(1);
+
+	}
+	
+	
+public void dropdown(String str1) {
+		
+		Select sc=new Select(driver.findElement(By.xpath(str1)));
+		List<WebElement>ls=sc.getOptions();
+		for(WebElement we:ls) {
+			
+            System.out.println(we.getText());
+            
+		}
 
 	}
 	@AfterMethod

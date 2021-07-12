@@ -22,7 +22,9 @@ import base.Testbase;
 	    log.debug("Login got success");
 	    
 	    dropdownclass(OR.getProperty("namedropdown"));
-	   
+	    Thread.sleep(2000);
+	    dropdown(OR.getProperty("namedropdown"));
+	    Thread.sleep(2000);
 	    findelemntAndClickXpath(OR.getProperty("Loginbutton"));
 	    Thread.sleep(2000);
 	    
@@ -31,7 +33,7 @@ import base.Testbase;
 	    Assert.assertEquals(str1, "Logout");
 	    
 	}
-@Test(priority=2)
+//@Test(priority=2)
 public void deposit() throws InterruptedException {
 	
 	loginmanager();
@@ -51,7 +53,7 @@ public void deposit() throws InterruptedException {
 	
 }
 
-@Test(priority=3)
+//@Test(priority=3)
 
 public void transcation() throws InterruptedException {
 	
